@@ -1,0 +1,138 @@
+.Home{
+    background-color: #24263B;
+}
+
+.Homes{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.Homeses{
+    display: flex;
+}
+
+.home-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    margin-top: 20px;
+    color: white;
+    
+}
+
+.home-icon{
+    font-size: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.fa-brands{
+    color: white;
+}
+.fa-brands:hover{
+    color: blue;
+    transform: scale(1.5);
+    transition: 1s ease-out;
+}
+.Home-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+    
+}
+.Home-name-style{
+    color: red;
+}
+.Home-type{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.Home-para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+.buttons1{
+    padding-top: 20px;
+}
+.button1:hover{
+    transform: scale(1.2);
+    transition: 1s ease-out;
+}
+.button2:hover{
+    transform: scale(1.2);
+    transition: 1s ease-out;
+}
+
+.button1 {
+    float: right;
+   
+    
+}
+.button2{
+    float: left;
+ 
+    
+}
+
+@media screen  and (max-width: 767px)  {
+    .button22{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .button11{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .Homeses{
+        flex-direction: column-reverse;
+    }
+    .Home-imge{
+        
+    }
+    .Home-img{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;  
+    }
+    
+}
+
+.Home-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Home-imge{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    box-shadow: 0 1px 0px 0px white;
+}
+.Home-img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;  
+}
+.Home-img:hover{
+    transform: scale(1.05);
+    transition: 1s ease-out;
+}
+
+

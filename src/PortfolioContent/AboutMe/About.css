@@ -1,0 +1,110 @@
+
+.a0{
+    margin-top: 50px;
+}
+.a1 h3{
+    text-align: center;
+}
+.a1 p{
+    text-align: center;
+}
+.a1 h1{
+    
+    width: 80px;
+    margin: 0 auto;
+    height: 3px ;
+    padding: 0px;
+    background-color: purple;
+    margin-bottom: 50px;
+
+}
+.a2{
+    width:80%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 0 auto;
+    height: 80vh;
+    margin-bottom: 80px;
+}
+.a2 img{
+    width: 100%;
+    height: 80vh;
+}
+.a2 .about2{
+padding: 20px 20px 0px 20px;
+}
+
+.a2 .about2 i{
+    margin-right: 10px;
+    color: red;
+}
+.a2b1{
+    margin-top: 80px;
+}
+.a2b1 p{
+    margin: 0px;
+    padding: 0px;
+}
+.a2b1 span{
+    font-size: 16px;
+}
+
+.about2 .buttin1{
+    width: 170px;
+    padding: 10px 25px 10px 25px;
+    background-color: orange;
+    font-size: 14px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    
+}
+.about2 .buttin1:hover{
+    transform: scale(1.1);
+    transition: 1s ease-out;
+    background-color: green;
+}
+
+.about2 .buttin2{
+    width: 170px;
+    padding: 10px 25px 10px 25px;
+    background-color: black;
+    font-size: 14px;
+    border-radius: 20px;
+    border: none;
+    color: white; 
+}
+.about2 .buttin2:hover{
+    transform: scale(1.1);
+    transition: 1s ease-out;
+    background-color: red;
+}
+
+.about2 .buttins{
+    margin-top: 80px;
+    
+}
+.buttins1{
+    display: flex;
+    justify-content: center;
+}
+.buttins2{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+@media screen  and (max-width: 767px)  {
+ 
+    .a2{
+        width:100%;
+        
+        margin: 0 auto;
+        height: auto;
+        margin-bottom: 80px;
+    }
+    .a2 img{
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+    }
+}

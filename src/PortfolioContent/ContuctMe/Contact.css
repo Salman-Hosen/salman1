@@ -1,0 +1,119 @@
+.contact{
+    background-color: lightpink;
+}
+
+.con0 h2{
+    text-align: center;
+    padding-top: 50px;
+  
+}
+.con0{
+    margin-top: 40px;
+}
+.con11{
+    padding-bottom: 50px;
+}
+.con1 {
+    background-color: #24263B;
+    width:70%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: auto;
+    box-sizing: border-box;
+    margin: 0 auto;
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.con2{
+    background-image: url('../ContuctMe/bg1.jpg');
+    background-position: center;
+   background-size: cover;
+   padding: 0px;
+   margin: 0px;
+   
+
+}
+.con2 h3 {
+    position: relative;
+    top: 40%;
+    left: 17%;
+
+}
+.con2 button {
+    width: 200px;
+    position: relative;
+    top: 40%;
+    left: 30%;
+    
+}
+.con3{
+    
+}
+.con3 .form-control{
+    width: 400px;
+   
+}
+.con3 h4{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.con4{
+    width: 80%;
+    margin: 0 auto;
+}
+.con4 .flabel{
+    margin-top: 12px;
+    margin-bottom: 3px;
+}
+.con4 button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen  and (max-width: 767px)  {
+    .con0 h2{
+        text-align: center;
+    }
+    .con0{
+       
+    }
+    
+    .con1 {
+        background-color: #24263B;
+        width:90%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        height: auto;
+        box-sizing: border-box;
+        margin: 0 auto;
+        color: white;
+      
+        
+    }
+    .con2{
+        display: none;
+    }
+    .con3 .form-control{
+        width: 90%;
+       
+    }
+    .con3 h4{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .con4{
+        
+        margin: 0 auto;
+    }
+    .con4 .flabel{
+        margin-top: 12px;
+        margin-bottom: 3px;
+    }
+    .con4 button{
+        margin-top: 20px;
+    }
+    
+}
+

@@ -1,0 +1,41 @@
+.t0{
+    display: block;
+    background-color: lightgreen;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.th3{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.th1 h3{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-family: 'Signika Negative', sans-serif;
+}
+.th1 p{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+.th1 h4{
+    width: 120px;
+    margin: 0 auto;
+    height: 3px ;
+    padding: 0px;
+    background-color: black;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.th3 .slide{
+    transform: scale(.4);
+    transition: 300ms;
+    opacity: .6;
+}
+.th3 .active-slide{
+    
+    opacity: 1;
+}

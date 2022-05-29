@@ -1,0 +1,10 @@
+.th2 .center{
+    transform: scale(1.1);
+    transition: 1s ease-out;
+    opacity: 1;
+}
+
+.th2 .side{
+    transform: scale(.9);
+    opacity: .7;
+}

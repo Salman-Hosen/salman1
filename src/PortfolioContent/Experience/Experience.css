@@ -1,0 +1,111 @@
+.e0{
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    min-height: 60vh;
+}
+.e1{
+    margin-bottom: 50px;
+}
+.e1 h1{
+    text-align: center;
+    font-family: 'Koulen', cursive;
+}
+.e1 p{
+    text-align: center;
+    
+}
+.e2f1{
+    
+    box-shadow:  6px 0 4px -4px rgba(0,0,0,0.7);
+    margin: 0px;
+    padding: 0px;
+
+}
+.e2f1 p{
+    padding: 8px;
+    margin: 0px;
+     
+}
+
+
+.e2f2:hover{
+    cursor: pointer;
+}
+.e2f2{
+    width: 250px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.botn-active{
+    background-color: greenyellow;
+    width: 60%;
+    border-radius: 0px 20px 20px 0px;
+}
+.contont-active{
+    display: block;
+    margin-left: 5%;
+
+}
+.contont-active i{
+    color: blue;
+    margin-right: 10px;
+}
+.contont-active h5{
+    color: green;
+}
+.contont{
+    display: none;
+}
+
+.e2f2o{
+    display: flex;
+}
+
+.e2f2o1{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: 35px;
+    font-size: 22px; 
+}
+.education i{
+ color:red
+}
+.education .edu1{
+    color:red;
+    margin-left: 3%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.education .edu2{
+    float: right;
+    background-color: red;
+    border-radius: 13px;
+    padding: 7px;
+}
+.education p{
+    margin-left: 5.8%;
+    margin-bottom: 30px;
+}
+.grid-item{
+   margin-bottom: 15px;
+}
+.progress{
+    margin-top: 5px;
+    width: 300px;
+}
+.grid-container .edu1{
+    margin-left: 2%;
+    font-size: 20px;
+}
+.grid-container .progress{
+    margin-left: 7.2%;
+}
+.grid-container2{
+    padding-left: 20px;
+}
+@media screen  and (max-width: 767px)  {
+  
+}
